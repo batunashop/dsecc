@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<!-- Mirrored from www.loxgamestudio.com/bots/securitybot/tr/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 10 Sep 2022 13:12:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Güvenlik Botu</title>
+<meta name="description" content="Sunucunuzu şüpheli, kimlik avı yapan web sitelerine ve spam gönderenlere karşı koruma zamanı.">
+<meta name="keywords" content="Lox Güvenlik Botu, Lox Security Bot, Güvenlik, Ücretsiz, Güvenlik Bot, Lox Game Studio, Lox Oyun Stüdyosu, Bot, Discord Bot, bot, discord botu, discord botları, lox bot, Lox Botu, Lox Discord Botları, lox discord botları">
+<meta property="og:title" content="Güvenlik Botu" />
+<meta property="og:description" content="Sunucunuzu şüpheli, kimlik avı yapan web sitelerine ve spam gönderenlere karşı koruma zamanı." />
+<meta property="og:image" content="../../../../static.loxgamestudio.com/securitybot/LoxSecurityBot.png" />
+<meta property="og:url" content="https://www.loxgamestudio.com/bots/securitybot" />
+<script src="../../../cdn-cgi/apps/head/Ax2IveHfAF1FaKzlWNPkDfHq_IA.js"></script><link rel="icon" href="https://static.loxgamestudio.com/securitybot/favicon.ico" type="image/x-icon" />
+<link href="https://fonts.googleapis.com/css?family=Heebo:400,400i,700|Titillium+Web:600" rel="stylesheet">
+<link rel="stylesheet" href="../dist/css/style.css">
+<link rel="stylesheet" href="../dist/css/style2.css">
+<script src="../../../../unpkg.com/scrollreveal%404.0.0/dist/scrollreveal.min.js" type="47f17f2af252f0bfd22fa0a3-text/javascript"></script>
+<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Roboto" rel="stylesheet">
+</head>
+<body class="is-boxed">
+<div class="body-wrap boxed-container">
+<header class="site-header">
+<div class="hero-disk hero-disk-1 is-moving-object is-translating" data-translating-factor="60">
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient x1="-1.265%" y1="100%" y2="100%" id="disk-1-a">
+<stop stop-color="#f9870dff" stop-opacity="0" offset="0%" />
+<stop stop-color="#f9870dff" offset="100%" />
+</linearGradient>
+</defs>
+<path d="M846 515c0-165.685 134.315-300 300-300s300 134.315 300 300h-150c0-82.843-67.157-150-150-150s-150 67.157-150 150H846z" transform="translate(-846 -215)" fill="url(#disk-1-a)" fill-rule="evenodd" />
+</svg>
+</div>
+<div class="hero-disk hero-disk-2 is-moving-object is-translating" data-translating-factor="20">
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient x1="0%" y1="100%" y2="100%" id="disk-2-a">
+<stop stop-color="#f9870dff" stop-opacity="0" offset="0%" />
+<stop stop-color="#f9870dff" offset="100%" />
+</linearGradient>
+</defs>
+<path d="M1153 63c0 165.685-134.315 300-300 300S553 228.685 553 63h150c0 82.843 67.157 150 150 150s150-67.157 150-150h150z" transform="translate(-553 -63)" fill="url(#disk-2-a)" fill-rule="evenodd" />
+</svg>
+</div>
+<div class="hero-sphere hero-sphere-1 is-moving-object is-translating" data-translating-factor="10">
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient cx="83.479%" cy="86.284%" fx="83.479%" fy="86.284%" r="128.926%" id="sphere-1-a">
+<stop stop-color="#f9870dff" offset="0%" />
+<stop stop-color="#f9870dff" stop-opacity="0" offset="100%" />
+</radialGradient>
+</defs>
+<circle cx="1522" cy="447" r="24" transform="translate(-1498 -423)" fill="url(#sphere-1-a)" fill-rule="evenodd" />
+</svg>
+</div>
+<div class="container">
+<div class="site-header-inner">
+<div class="brand header-brand">
+<h1 class="m-0">
+<a class="lox-bot-logo" href="#">
+<div><img src="../dist/images/LoxSecurityBotTitle.png" width="256"></div>
+<div class="logo_border"><img src="../dist/images/LoxSecurityBot_B.png" width="59" /></div>
+</a>
+</h1>
+</div>
+</div>
+</div>
+</header>
+<main>
+<section class="hero text-center">
+<div class="hero-disk hero-disk-3 is-moving-object is-translating" data-translating-factor="90">
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient x1="100%" y1="100%" x2="-1.265%" y2="100%" id="disk-3-a">
+<stop stop-color="#f9870dff" stop-opacity="0" offset="0%" />
+<stop stop-color="#f9870dff" offset="100%" />
+</linearGradient>
+</defs>
+<path d="M153 492c0-165.685 134.315-300 300-300s300 134.315 300 300H603c0-82.843-67.157-150-150-150s-150 67.157-150 150H153z" transform="translate(-153 -192)" fill="url(#disk-3-a)" fill-rule="evenodd" />
+</svg>
+</div>
+<div class="hero-disk hero-disk-4 is-moving-object is-translating" data-translating-factor="50">
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient x1="0%" y1="100%" y2="100%" id="disk-4-a">
+<stop stop-color="#f9870dff" stop-opacity="0" offset="0%" />
+<stop stop-color="#f9870dff" offset="100%" />
+</linearGradient>
+</defs>
+<path d="M817 687c0 165.685-134.315 300-300 300S217 852.685 217 687h150c0 82.843 67.157 150 150 150s150-67.157 150-150h150z" transform="translate(-217 -687)" fill="url(#disk-4-a)" fill-rule="evenodd" />
+</svg>
+</div>
+<div class="hero-sphere hero-sphere-2 is-moving-object is-translating" data-translating-factor="30">
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient cx="83.479%" cy="86.284%" fx="83.479%" fy="86.284%" r="128.926%" id="sphere-2-a">
+<stop stop-color="#f9870dff" offset="0%" />
+<stop stop-color="#f9870dff" stop-opacity="0" offset="100%" />
+</radialGradient>
+</defs>
+<circle cx="251" cy="433" r="16" transform="translate(-235 -417)" fill="url(#sphere-2-a)" fill-rule="evenodd" />
+</svg>
+</div>
+<div class="container-sm">
+<div class="hero-inner">
+<h1 class="hero-title mt-0 is-revealing">Discord Sunucunuzu Koruma Zamanı</h1>
+<p class="hero-paragraph is-revealing">Sunucunuzu spam gönderenlere, istenmeyen şüpheli bağlantılara, sahte hesaplara ve daha fazlasına karşı koruyun.</p>
+<div class="hero-cta is-revealing">
+<a class="button button-primary button-shadow" href="https://discordapp.com/oauth2/authorize?client_id=492021132938182658&amp;scope=bot&amp;permissions=470281342" target="_blank">Botu Davet Et</a>
+</div>
+<div class="hero-browser">
+<iframe src="feedbacks.html" class="feedback-frame" style="width: 100%; border: none; height: 250px; -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.55); -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.55); box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.55); border-radius: 15px;"></iframe>
+</div>
+</div>
+</div>
+</section>
+<section class="features section text-center">
+<div class="container-sm">
+<div class="features-inner section-inner has-bottom-divider">
+<div class="features-wrap">
+<div class="feature">
+<div class="feature-inner">
+<div class="feature-icon">
+<img src="../dist/images/SecurityBot.png" style="width: 80px; height: 80px;">
+</div>
+<h3 class="feature-title mt-24">Anında Engelle</h3>
+<p class="text-sm">Sunucunuzu şüpheli ve kimlik avı yapan web siteleri içeren iletilere karşı koruyun.</p>
+</div>
+</div>
+<div class="feature">
+<div class="feature-inner">
+<div class="feature-icon">
+<img src="../dist/images/Premium.png" style="width: 80px; height: 80px;">
+</div>
+<h3 class="feature-title mt-24">Gelişmiş Domain Bilgisi</h3>
+<p class="text-sm">Tıklamadan önce web sitelerinin yaşını, bulunduğu ülkeleri ve IP adresini görün. Dolandırıcıların seninle uğraşmasına asla izin verme.</p>
+</div>
+</div>
+</div>
+<div class="features-wrap">
+<div class="feature">
+<div class="feature-inner">
+<div class="feature-icon">
+<img src="../dist/images/SecurityBot.png" style="width: 80px; height: 80px;">
+</div>
+<h3 class="feature-title mt-24">Üyelerini Selamla</h3>
+<p class="text-sm">Üyelerinizi modern bir karşılayıcı ile karşılayın.</p>
+</div>
+</div>
+<div class="feature">
+<div class="feature-inner">
+<div class="feature-icon">
+<img src="../dist/images/SecurityBot.png" style="width: 80px; height: 80px;">
+</div>
+<h3 class="feature-title mt-24">Yorumları Oku</h3>
+<p class="text-sm">Diğerlerinin bir kişi hakkında ne düşündüğünü bilmek için diğer kullanıcılar tarafından yapılan incelemelere bakın.</p>
+</div>
+</div>
+<div class="feature">
+<div class="feature-inner">
+<div class="feature-icon">
+<img src="../dist/images/SecurityBot.png" style="width: 80px; height: 80px;">
+</div>
+<h3 class="feature-title mt-24">Kara Listeleri Kullan</h3>
+<p class="text-sm">İnsanları derhal yasaklamak veya atmak için botu kullanarak tüm kara listelere erişin.</p>
+</div>
+</div>
+<div class="feature">
+<div class="feature-inner">
+<div class="feature-icon">
+<img src="../dist/images/SecurityBot.png" style="width: 80px; height: 80px;">
+</div>
+<h3 class="feature-title mt-24">Herşeyi Kontrol Altında Tut</h3>
+<p class="text-sm">Güvenlik Botu, güvenliği arttırmak için Discord sunucunuzun önünde duracaktır.</p>
+</div>
+</div>
+<div class="feature">
+<div class="feature-inner">
+<div class="feature-icon">
+<img src="../dist/images/SecurityBot.png" style="width: 80px; height: 80px;">
+</div>
+<h3 class="feature-title mt-24">Haberdar Ol</h3>
+<p class="text-sm">Sunucunuza katılan kişiler hakkında bilgi edinin.</p>
+</div>
+</div>
+<div class="feature">
+<div class="feature-inner">
+<div class="feature-icon">
+<img src="../dist/images/SecurityBot.png" style="width: 80px; height: 80px;">
+</div>
+<h3 class="feature-title mt-24">Özelleştirilebilir Davranış</h3>
+<p class="text-sm">Her şey istediğiniz gibi olsun.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section text-center">
+<div class="container-sm">
+<div class="section-inner has-bottom-divider">
+<h2 style="margin-top: 0px;">Lox Güvenlik Botu Nedir?</h2>
+<p>Lox Güvenlik Botu, yokluğunuz sırasında grubunuzda olabilecek kötü olayları engellemek için geliştirilmiştir. Örneğin, siz başka bir iş ile uğraşırken sunucunuza istenmeyen reklamları (Örn. Grup davetleri içeren Kullanıcı isimleri) göstermek için bir Discord kullanıcısı katıldı, her hangi bir moderatörünüz veya sizin tarafından tespit edilmediği süreç içerisinde bu kullanıcının grubunuzda bir süre kalması mümkün olacaktır, değil mi? Ama unuttukları bir şey var, Lox Güvenlik Botu tam bu tür problemlerle başa çıkmak için geliştirildi. Sizin yokluğunuzda sunucunuza reklam yapmak için gelen kullanıcılar (Kullanıcı adında reklam barındıran) otomatik olarak gruptan atılacaktır ve grup sahibine bir bildirim gönderilecektir.</br>Aynı zamanda, kullanıcı adında küfür içeren kullanıcıları da otomatik olarak gruptan atacaktır.</br></br>Sunucu güvenliğini arttırmak için bizim kullandığımız bir başka algoritma daha var. Eğer sunucunuza giren kullanıcı hesabı 24 saat içerisinde oluşturmuş ise, sunucu sahibine açıklaması ile birlikte bir bildirim mesajı gönderilir.</br></br>Lox Güvenlik Botunun en önemli özelliklerinden bir tanesi, grubunuzda gönderilen tüm mesajların sunucularımız tarafından taranmasıdır. Sunucunuz içerisinde gönderilen mesajlar eğer tehlikeli bir bağlantıyı veya dolandırıcılık sitelerini içeriyorsa, otomatik olarak mesaj silinecektir ve gönderene bir uyarı mesajı gönderilecektir.</br></br>Botumuzu kullanarak siteleri manuel olarak da kontrol ettirebilirsiniz.</br></br>Ayrıca, Lox Güvenlik Botuna Discord kullanıcılarını rapor edebilirsiniz, böylece diğer grup sahiplerine otomatik olarak bir bildirim gidecektir.</br>Eğer karalisteye alınan bir Discord kullanıcısı her hangi bir davet linki ile grubunuza katılmaya çalışırsa, biz otomatik olarak onu atacağız ve sizlere sebebini söyleyeceğiz.</br>Kara listeye alınan bir Discord kullanıcısı Lox Güvenlik Botunun olduğu her hangi bir grupta mesaj gönderemez.</br></br>Ayrıca, Güvenlik Botunu kullanarak, diğer kullanıcılar hakkında kendi yorumlarınızı görüntüleyebilir, hatta kendi yorumlarınızı yapabilirsiniz. Mevcut incelemelere Güvenlik Botunu kullanan tüm sunucular boyunca erişilebilir. Bu incelemeler, size, diğer kullanıcılara ve sunucu sahiplerine, incelenen kişiler hakkında bazı fikirler edinme konusunda yardımcı olacaktır.</p>
+</div>
+</div>
+</section>
+<section class="section text-center">
+<div class="container-sm">
+<div class="section-inner has-bottom-divider">
+<h2 style="margin-top: 0px;">Nasıl kullanılır?</h2>
+<p>Botu sunucunuza ekledikten sonra, herhangi bir kanalda bahsetmeniz veya kategorilere ulaşmak için &gt;help yazmanız yeterlidir.</br>Dil veya prefix karakterini &gt;setlanguage ve &gt;setprefix ile değiştirebilirsiniz.</br>Gerçekten nasıl kullanılacağını bilmiyorsanız, <a href="https://discord.gg/PrKery9">buraya</a> tıklayarak destek sunucusuna katılın.</p>
+</div>
+</div>
+</section>
+<section class="section text-center premiumSection">
+<div class="container-sm">
+<div class="section-inner has-bottom-divider">
+<h2 class="premiumTitle">Security Premium</h2>
+<p>Premium olma zamanı!</br>Discord'daki tüm özelliklere erişin ve projeyi yalnızca $3 ile destekleyin.</br>Ayrıca, Lox Game Studio'nun resmi Discord sunucusunda özel roller ve izinler alacaksınız.</br></br>Şimdi premium olmak için aşağıdaki butona tıklayın!</p>
+<div class="section-cta">
+<a class="button button-primary button-shadow" href="https://www.patreon.com/join/loxgamestudio/checkout?rid=3340361" target="_blank">Şimdi Premium Ol</a>
+</div>
+</div>
+</div>
+</section>
+<section class="section text-center">
+<div class="container-sm">
+<div class="section-inner has-bottom-divider">
+<h2 style="margin-top: 0px;">SSS</h2>
+<h4>Varsayılan Prefix karakteri nedir?</h4>
+<p>Varsayılan prefix karakterimiz &gt;</p>
+<h4>Kategori listesine nasıl ulaşabilirim?</h4>
+<p>Kategorilere ulaşmak için herhangi bir kanalda &gt;help yazın veya bottan bahsedin.</p>
+<h4>Bir kategori altındaki komutlara nasıl ulaşabilirim?</h4>
+<p>&gt;help yazdıktan sonra kategori adını veya kimliğini yazın. Aşağıdaki örnekleri kontrol edin.<br>&gt;help Support<br>&gt;help 1<br>&gt;help &quot;Category With Spaces&quot;</p>
+<h4>Prefix karakterini nasıl değiştirebilirim?</h4>
+<p>Botun prefix karakterini &gt;setprefix komutunu kullanarak değiştirebilirsiniz. Aşağıdaki örnekleri kontrol edin.<br>&gt;setprefix !</p>
+<h4>Dili nasıl değiştirebilirim?</h4>
+<p>Botun dilini &gt;setlanguage komutunu kullanarak değiştirebilirsiniz. <b>Şu anda sadece Türkçe ve İngilizce dillerini destekliyoruz.</b> Aşağıdaki örnekleri kontrol edin.<br>&gt;setlanguage tr</p>
+<h4>En çok kullanılan komutlar nedir?</h4>
+<p>En çok kullanılan komutları Algılama kategorisinde bulabilirsiniz.</p>
+<h4>Security Premium Nedir?</h4>
+<p>Security Premium, projeyi yalnızca 3 dolar ile destekledikten sonra tüm bot'a erişmenizi sağlar. Security Premium'u <a href="https://www.patreon.com/join/loxgamestudio/checkout?rid=3340361" target="_blank">Patreon</a>'dan satın aldıktan sonra sunucumuzda özel rollere sahip olacaksınız.</p>
+<h4>Security Premium'u satın aldıktan sonra ne yapabilirim?</h4>
+<p>Güvenli Welcomer'da resimler veya gradient kullanabilir veya telif hakkı metnini altbilgiden kaldırabilirsiniz. Veya maksimum resim boyutu, maksimum dosya boyutu ve istenmeyen dosya formatları gibi dosya limitlerini etkinleştirebilirsiniz. En önemlisi, Zengin Etki Alanı bilgimizdir. Security Premium'u satın aldıktan sonra, Zengin Etki Alanı Bilgisini etkinleştirebilecek ve bu, sunucunuza gönderilen her web sitesi URL'si hakkında bilgi gösterecektir.</p>
+<h4>Security bot sunucumda çevrimdışı. Ne yapabilirim?</h4>
+<p>Tekmelemeyi ve botu tekrar sunucunuza davet etmeyi deneyin. Bu sorununuzu çözmezse lütfen bizimle iletişime geçin.</p>
+</div>
+</div>
+</section>
+<section class="cta section">
+<div class="container-sm">
+<div class="cta-inner section-inner">
+<div class="cta-content text-center">
+<h2 class="section-title mt-0">Haberdar olun!</h2>
+<p class="section-paragraph">Ekibimize botlarımızın gelişiminde yardımcı olmak ve bize destek olmak istiyorsanız, Discord grubumuza katılabilir ve/veya geri bildirim göndererek bize yardımcı olabilirsiniz.</p>
+<div class="section-cta">
+<a class="button button-primary button-shadow" href="https://discord.gg/PrKery9" target="_blank">Şimdi Katıl!</a>
+</div>
+<div class="discord-widget">
+<iframe src="https://discordapp.com/widget?id=346431783333658624&amp;theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="footer-disk footer-disk-1 is-moving-object is-translating" data-translating-factor="60">
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient x1="100%" y1="100%" x2="-1.265%" y2="100%" id="disk-5-a">
+<stop stop-color="#FF4136" stop-opacity="0" offset="0%" />
+<stop stop-color="#FF851B" offset="100%" />
+</linearGradient>
+</defs>
+<path d="M153 492c0-165.685 134.315-300 300-300s300 134.315 300 300H603c0-82.843-67.157-150-150-150s-150 67.157-150 150H153z" transform="translate(-153 -192)" fill="url(#disk-5-a)" fill-rule="evenodd" />
+</svg>
+</div>
+<div class="footer-disk footer-disk-2 is-moving-object is-translating" data-translating-factor="80">
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient x1="0%" y1="100%" y2="100%" id="disk-6-a">
+<stop stop-color="#FF4136" stop-opacity="0" offset="0%" />
+<stop stop-color="#FF851B" offset="100%" />
+</linearGradient>
+</defs>
+<path d="M1153 63c0 165.685-134.315 300-300 300S553 228.685 553 63h150c0 82.843 67.157 150 150 150s150-67.157 150-150h150z" transform="translate(-553 -63)" fill="url(#disk-6-a)" fill-rule="evenodd" />
+</svg>
+</div>
+<div class="footer-sphere footer-sphere-1 is-moving-object is-translating" data-translating-factor="20">
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient cx="83.479%" cy="86.284%" fx="83.479%" fy="86.284%" r="128.926%" id="sphere-3-a">
+<stop stop-color="#FF4136" offset="0%" />
+<stop stop-color="#FF851B" stop-opacity="0" offset="100%" />
+</radialGradient>
+</defs>
+<circle cx="251" cy="433" r="16" transform="translate(-235 -417)" fill="url(#sphere-3-a)" fill-rule="evenodd" />
+</svg>
+</div>
+<div class="container">
+<div class="site-footer-inner has-top-divider">
+<div class="brand footer-brand">
+<a href="https://www.loxgamestudio.com/" target="_blank">
+<img src="../../../../static.lgamestudio.com/general/img/loxx.png" width="64" />
+</a>
+</div>
+<ul class="footer-links list-reset">
+<li>
+<a href="https://www.loxgamestudio.com/cdn-cgi/l/email-protection#01727471716e7375416c60686d2f6d66606c6472757465686e2f626e6c">İletişim</a>
+</li>
+
+<li>
+<a href="https://www.lgamestudio.com/terms">Kullanım Şartları</a>
+</li>
+<li>
+<a href="https://www.lgamestudio.com/privacy">Gizlilik Politikası</a>
+</li>
+<li>
+<a href="https://discord.gg/PrKery9">Destek</a>
+</li>
+</ul>
+<ul class="footer-social-links list-reset">
+<li>
+<a href="https://www.facebook.com/groups/loxgamestudio">
+<span class="screen-reader-text">Facebook</span>
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#FFFFFF" />
+</svg>
+</a>
+</li>
+</ul>
+<div class="footer-copyright"><div>Telif Hakkı &copy; 2022, Lox Game Studios. Tüm hakları saklıdır.</div><div>Tema: <a href="https://cruip.com/florence/" target="_blank">Florence</a></div></div>
+</div>
+</div>
+</footer>
+</div>
+<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../dist/js/main.min.js" type="47f17f2af252f0bfd22fa0a3-text/javascript"></script>
+<script src="../../../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="47f17f2af252f0bfd22fa0a3-|49" defer=""></script></body>
+
+<!-- Mirrored from www.loxgamestudio.com/bots/securitybot/tr/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 10 Sep 2022 13:12:59 GMT -->
+</html>
